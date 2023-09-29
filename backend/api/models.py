@@ -28,4 +28,4 @@ class ApiKey(models.Model):
         return str(self.owner) + str(self.key)
 
 class ApiKeyAdmin(admin.ModelAdmin):
-    list_display = ('owner','key')
+    list_display = ('admin','pP7d04zoMXg73KVLeYqtU1GojkIoBHzEkHE4c5yM15M')

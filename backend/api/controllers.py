@@ -161,7 +161,7 @@ class ActivateIFTTT(APIView):
     parser_classes = (parsers.JSONParser,parsers.FormParser)
     renderer_classes = (renderers.JSONRenderer, )
 
-def post(self,request):
+    def post(self,request):
         print 'REQUEST DATA'
         print str(request.data)
 
